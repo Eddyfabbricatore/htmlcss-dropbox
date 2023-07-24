@@ -43,7 +43,6 @@ img{
 
 .align-center{
   align-items: center;
-  vertical-align: 100%;
 }
 
 .h-100{
@@ -57,7 +56,7 @@ img{
 }
 
 .btn{
-  padding: 5px 10px;
+  padding: 10px;
   border: none;
   color: white;
   background-color: var(--background-btn);
@@ -65,7 +64,7 @@ img{
 
 
 /* header */
-header{
+header .top-bar{
   position: fixed;
   left: 0;
   right: 0; 
@@ -94,4 +93,48 @@ header nav ul a{
 
 header nav ul img{
   margin-right: 40px;
+}
+
+header #jumbotron{
+  padding-top: 160px;
+  background-color: #b4d0e6;
+}
+
+#jumbotron h1{
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+#jumbotron .content{
+  margin-top: 50px;
+}
+
+#jumbotron .content .content-prova{
+  width: 30%;
+}
+
+#jumbotron .content .content-img{
+  position: relative;
+  width: 70%;
+}
+
+#jumbotron .content .content-prova p{
+  margin-bottom: 25px;
+  font-size: .9rem;
+}
+
+#jumbotron .content .content-prova .btn{
+  margin-bottom: 25px;
+}
+
+#jumbotron .content .content-prova i{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 3rem;
+}
+
+#jumbotron .content .content-img img{
+  position: absolute;
+  top: 0px;
+  left: 0;
 }
