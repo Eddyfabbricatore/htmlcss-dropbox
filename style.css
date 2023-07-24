@@ -1,5 +1,6 @@
 :root{
   --background-btn: #0061fe;
+  --backgroung-jumbotron: #b4d0e6;
 }
 
 *{
@@ -58,6 +59,7 @@ img{
 .btn{
   padding: 10px;
   border: none;
+  cursor: pointer;
   color: white;
   background-color: var(--background-btn);
 }
@@ -91,13 +93,9 @@ header nav ul a{
   text-decoration: none;
 }
 
-header nav ul img{
-  margin-right: 40px;
-}
-
 header #jumbotron{
   padding-top: 160px;
-  background-color: #b4d0e6;
+  background-color: var(--backgroung-jumbotron);
 }
 
 #jumbotron h1{
