@@ -145,26 +145,26 @@ header #jumbotron{
 
 
 /* main */
-main section:first-child{
+main .pacchetti{
   margin-top: 120px;
 }
 
-main section h1{
+main .pacchetti h1{
   font-weight: bold;
 }
 
-main section .fatturazione i.circle{
+main .pacchetti .fatturazione i.circle{
   margin-top: 60px;
   margin-bottom: 50px;
   cursor: pointer;
   font-size: 1rem;
 }
 
-main section .fatturazione i.circle#check{
+main .pacchetti .fatturazione i.circle#check{
   color: var(--background-btn-color-i);
 }
 
-main section .fatturazione span{
+main .pacchetti .fatturazione span{
   padding-right: 50px;
 }
 
@@ -185,7 +185,7 @@ main .row .col .col-info{
   border-bottom: 1px solid var(--border-col-color-mese);
 }
 
-.row .col .col-info h2{
+h2{
   margin-bottom: 20px;
   font-weight: bold;
 }
@@ -215,7 +215,7 @@ main .row .col .col-info{
   margin-right: 5px;
 }
 
-.row .col .btn{
+.row .col .col-info .informazioni .btn{
   margin-top: 20px;
   width: 100%;
 }
@@ -234,4 +234,44 @@ main .row .col .col-info{
 
 .row .col .col-specifiche .specifiche .info i{
   color: var(--background-btn-color-i);
+}
+
+main .pacchetto-enterprise{
+  margin-top: 50px;
+}
+
+.pacchetto-enterprise .row .col{
+  width: 100%;
+}
+
+.pacchetto-enterprise .row .col .col-enterprise{
+  position: relative;
+  padding: 40px 30px 20px 30px;
+}
+
+.pacchetto-enterprise .row .col .col-enterprise .btn{
+  position: absolute;
+  top: 40px;
+  right: 30px;
+}
+
+main .partner{
+  margin-top: 150px;
+}
+
+.partner .partner-content .partner-content-img{
+  width: 60%;
+  padding: 0 20px;
+}
+
+.partner .partner-content .partner-content-text{
+  width: 40%;
+  padding: 40px 20px;
+}
+
+.partner .partner-content .partner-content-text .btn{
+  margin-top: 40px;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
 }
