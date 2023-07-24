@@ -1,6 +1,7 @@
 :root{
-  --background-btn: #0061fe;
+  --background-btn-color-i: #0061fe;
   --backgroung-jumbotron: #b4d0e6;
+  --border-col-color-mese: #cbcbcf;
 }
 
 *{
@@ -25,12 +26,8 @@ img{
 
 .container-in{
   width: 80%;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
-}
-
-.padding-right-50px{
-  padding-right: 50px;
 }
 
 
@@ -70,7 +67,7 @@ img{
   border: none;
   cursor: pointer;
   color: white;
-  background-color: var(--background-btn);
+  background-color: var(--background-btn-color-i);
 }
 
 
@@ -156,13 +153,79 @@ main section h1{
   font-weight: bold;
 }
 
-main section i{
+main section i.circle{
   margin-top: 60px;
   margin-bottom: 40px;
   font-size: 1rem;
 }
 
+main section i.circle#check{
+  color: var(--background-btn-color-i);
+}
+
+main section span{
+  padding-right: 50px;
+}
+
+main .row .col{
+  width: calc(100% / 3 - 40px);
+  min-width: 250px;
+  border: 1px solid var(--border-col-color-mese);
+}
+
 main .row .col .col-top{
-  border: 1px solid grey;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-col-color-mese);
   text-align: center;
+}
+
+main .row .col .col-info{
+  padding: 40px 30px;
+  border-bottom: 1px solid var(--border-col-color-mese);
+}
+
+.row .col .col-info h2{
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.row .col .col-info .price{
+  font-weight: bold;
+}
+
+.row .col .col-info .mese{
+  margin-top: 10px;
+  color: var(--border-col-color-mese);
+}
+
+.row .col .col-info .informazioni{
+  margin-top: 60px;
+}
+
+.row .col .info{
+  margin-bottom: 30px;
+}
+
+.row .col .info-left{
+  margin-right: 5px;
+}
+
+.row .col .btn{
+  margin-top: 20px;
+}
+
+.row .col p{
+  margin-top: 40px;
+}
+
+.row .col .col-specifiche{
+  padding: 40px 30px;
+}
+
+.row .col .col-specifiche .specifiche{
+  margin-top: 40px;
+}
+
+.row .col .col-specifiche .specifiche .info i{
+  color: var(--background-btn-color-i);
 }
