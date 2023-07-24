@@ -23,9 +23,18 @@ img{
   margin: 0 auto;
 }
 
+.container-in{
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.padding-right-50px{
+  padding-right: 50px;
+}
+
 
 /* utils */
-
 .d-flex{
   display: flex;
 }
@@ -135,4 +144,25 @@ header #jumbotron{
   position: absolute;
   top: 0px;
   left: 0;
+}
+
+
+/* main */
+main section:first-child{
+  margin-top: 120px;
+}
+
+main section h1{
+  font-weight: bold;
+}
+
+main section i{
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 1rem;
+}
+
+main .row .col .col-top{
+  border: 1px solid grey;
+  text-align: center;
 }
