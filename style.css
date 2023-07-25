@@ -81,63 +81,63 @@ header .top-bar{
   background-color: white;
 }
 
-header .header-left-side{
+.top-bar .topbar-leftbar{
   margin-left: 20px;
 }
 
-header .header-right-side{
+.top-bar .topbar-rightbar{
   margin-right: 20px;
 }
 
-header nav ul{
+.top-bar nav ul{
   list-style: none;
 }
 
-header nav ul a{
+.top-bar nav ul a{
   margin-right: 40px;
   color: black;
   text-decoration: none;
 }
 
-header #jumbotron{
+header .jumbotron{
   padding-top: 160px;
   background-color: var(--backgroung-jumbotron);
 }
 
-#jumbotron h1{
+.jumbotron h1{
   font-size: 4rem;
   font-weight: bold;
 }
 
-#jumbotron .content{
+.jumbotron .jumbotron-content{
   margin-top: 50px;
 }
 
-#jumbotron .content .content-prova{
+.jumbotron-content .jumbotron-content-prova{
   width: 30%;
 }
 
-#jumbotron .content .content-img{
+.jumbotron-content .jumbotron-content-img{
   position: relative;
   width: 70%;
 }
 
-#jumbotron .content .content-prova p{
+.jumbotron-content .jumbotron-content-prova p{
   margin-bottom: 25px;
   font-size: .9rem;
 }
 
-#jumbotron .content .content-prova .btn{
+.jumbotron-content .jumbotron-content-prova .btn{
   margin-bottom: 25px;
 }
 
-#jumbotron .content .content-prova i{
+.jumbotron-content .jumbotron-content-prova i{
   margin-top: 30px;
   margin-bottom: 10px;
   font-size: 3rem;
 }
 
-#jumbotron .content .content-img img{
+.jumbotron-content .jumbotron-content-img img{
   position: absolute;
   top: 0px;
   left: 0;
@@ -145,30 +145,30 @@ header #jumbotron{
 
 
 /* main */
-main .pacchetti{
+main .edition{
   margin-top: 120px;
 }
 
-main .pacchetti h1{
+.edition h1{
   font-weight: bold;
 }
 
-main .pacchetti .fatturazione i.circle{
+.edition .billing i{
   margin-top: 60px;
   margin-bottom: 50px;
   cursor: pointer;
   font-size: 1rem;
 }
 
-main .pacchetti .fatturazione i.circle#check{
+.edition .billing i#check{
   color: var(--background-btn-color-i);
 }
 
-main .pacchetti .fatturazione span{
+.edition .billing span{
   padding-right: 50px;
 }
 
-main .row .col{
+main .edition .row .col{
   width: calc(100% / 3 - 40px);
   min-width: 250px;
   border: 1px solid var(--border-col-color-mese);
@@ -261,7 +261,7 @@ main .partner{
 
 .partner .partner-content .partner-content-img{
   width: 60%;
-  padding: 0 20px;
+  padding: 0 20px 0 0;
 }
 
 .partner .partner-content .partner-content-text{
@@ -274,4 +274,13 @@ main .partner{
   border: 1px solid black;
   color: black;
   background-color: white;
+}
+
+main .dropbox-business{
+  margin-top: 130px;
+}
+
+.dropbox-business .row .col{
+  width: calc(100% / 3);
+  padding: 50px 40px 50px 0;
 }
