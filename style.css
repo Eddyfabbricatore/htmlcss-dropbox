@@ -364,18 +364,18 @@ main .dropbox-business{
 main .square{
   margin-top: 100px;
   width: calc(100vw - 17px);
-  height: 100%;
 }
 
 .square .row .col{
   width: calc((100vw - 17px) / 3);
+  height: 100%;
 }
 
 .square .row .col .square-small{
   position: relative;
   width: 50%;
-  min-width: 200px;
-  min-height: 200px;
+  min-width: 250px;
+  min-height: 250px;
   aspect-ratio: 1/1;
 }
 
@@ -408,6 +408,34 @@ main .square{
 
 .square .row .col .square-big .square-big-text p{
   margin-top: 30px;
+}
+
+.square .row.azure{
+  height: 250px;
+}
+
+.row.azure .col{
+  width: 100%;
+}
+
+.row.azure .col .container-in{
+  padding: 100px 0;
+}
+
+.row.azure .col .prova-gratuita{
+  position: relative;
+}
+
+.row.azure .col .prova-gratuita h2{
+  color: #61082b;
+}
+
+.row.azure .col .prova-gratuita .btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: black;
+  background-color: white;
 }
 /* /section square */
 
