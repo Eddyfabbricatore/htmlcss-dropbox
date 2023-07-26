@@ -117,8 +117,14 @@ h3{
   padding: 10px;
   border: none;
   cursor: pointer;
+  opacity: 1;
+  transition: all 1s;
   color: white;
   background-color: var(--background-btn-color-i);
+}
+
+.btn:hover{
+  opacity: 0.75;
 }
 
 
@@ -259,6 +265,7 @@ main .edition{
 
 .informazioni .info-right ul,
 .specifiche .info-right ul{
+  transition: all 1s;
   list-style: none;
 }
 
@@ -412,7 +419,7 @@ main .square{
 .square .row .col .square-big .square-big-text{
   margin-top: 30px;
   border-top: 1px solid #b3b3b3;
-  overflow-y: scroll;
+  overflow-y: auto;
   height: 348px;
 }
 
@@ -476,4 +483,47 @@ main .ask .container-in{
   top: 50%;
   right: 50px;
   transform: translate(-50%,-50%);
+}
+
+
+/* footer */
+footer{
+  padding-top: 50px;
+  color: white;
+  background-color: black;
+}
+
+.footer-top .footer-menu{
+  width: 100%;
+}
+
+.footer-menu .col{
+  flex-basis: 25%;
+  padding: 20px;
+}
+
+.footer-menu .col ul{
+  list-style: none;
+}
+
+.footer-menu .col ul li{
+  margin: 10px 0;
+}
+
+.footer-top .footer-menu .col h4{
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.footer-top .footer-menu .col a{
+  color: white;
+  font-size: .8rem;
+  text-decoration: none;
+}
+
+.footer-bottom{
+  margin-top: 50px;
+  padding: 40px 20px;
+  border-top: 2px solid grey;
+  color: grey;
 }
