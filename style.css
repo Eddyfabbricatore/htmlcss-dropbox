@@ -247,11 +247,6 @@ main .edition{
   margin-top: 60px;
 }
 
-.edition .row .col .col-info .informazioni span,
-.edition .row .col .col-specifiche .specifiche span{
-  font-size: .8rem;
-}
-
 .edition .row .col .col-info .informazioni .info,
 .edition .row .col .col-specifiche .specifiche .info{
   margin-bottom: 30px;
@@ -260,6 +255,16 @@ main .edition{
 .edition .row .col .col-info .informazioni .info .info-left,
 .edition .row .col .col-specifiche .specifiche .info .info-left{
   margin-right: 5px;
+}
+
+.informazioni .info-right ul,
+.specifiche .info-right ul{
+  list-style: none;
+}
+
+.informazioni .info-right ul li,
+.specifiche .info-right ul li{
+  font-size: .8rem;
 }
 
 .edition .row .col .col-info .informazioni .btn{
