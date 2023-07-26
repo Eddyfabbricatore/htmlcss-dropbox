@@ -377,7 +377,7 @@ main .dropbox-business{
 /* /section dropbox-business */
 
 
-/* section quadrati */
+/* section square */
 main .square{
   margin-top: 100px;
   width: calc(100vw - 17px);
@@ -413,8 +413,8 @@ main .square{
 
 .square .row .col .square-big{
   padding: 30px;
-  min-width: 400px;
-  min-height: 400px;
+  min-width: 500px;
+  min-height: 500px;
 }
 
 .square .row .col .square-big .square-big-img img{
@@ -425,7 +425,7 @@ main .square{
   margin-top: 30px;
   border-top: 1px solid #b3b3b3;
   overflow-y: auto;
-  height: 348px;
+  height: 100%;
 }
 
 .square .row .col .square-big .square-big-text p{
