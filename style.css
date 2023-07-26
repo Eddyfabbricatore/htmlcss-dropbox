@@ -276,7 +276,7 @@ main .edition{
 
 .informazioni .info-right ul li,
 .specifiche .info-right ul li{
-  font-size: .8rem;
+  font-size: .7rem;
 }
 
 .edition .row .col .col-info .informazioni .btn{
@@ -531,4 +531,8 @@ footer{
   padding: 40px 20px;
   border-top: 2px solid grey;
   color: grey;
+}
+
+.footer-bottom i{
+  cursor: pointer;
 }
