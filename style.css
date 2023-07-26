@@ -379,6 +379,11 @@ main .square{
   aspect-ratio: 1/1;
 }
 
+.active{
+  box-shadow: inset 10px 10px rgba(0, 0, 0, .1), 
+  inset -10px -10px rgba(0, 0, 0, .1);
+}
+
 .square .row .col .square-small img{
   position: absolute;
   min-width: 100px;
@@ -403,7 +408,7 @@ main .square{
   margin-top: 30px;
   border-top: 1px solid #b3b3b3;
   overflow-y: scroll;
-  height: 350px;
+  height: 348px;
 }
 
 .square .row .col .square-big .square-big-text p{
